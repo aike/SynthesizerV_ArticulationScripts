@@ -12,7 +12,7 @@
 
 local delayTime = 80 / 1000  -- 80msec
 
-local delayBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(delayTime)
+local delayBlicks
 local flatList
 
 function getClientInfo()
@@ -34,6 +34,7 @@ function getTranslations(langCode)
 end
 
 function main()
+  delayBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(delayTime)
   makeFlatList()
   setOvershoot()
   SV:finish()

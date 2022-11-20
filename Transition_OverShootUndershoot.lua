@@ -13,8 +13,8 @@
 local overshootDuration  = 50 / 1000  -- 50msec
 local undershootDuration = 30 / 1000  -- 30msec
 
-local overshootBlicks  = SV:getProject():getTimeAxis():getBlickFromSeconds(overshootDuration)
-local undershootBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(undershootDuration)
+local overshootBlicks
+local undershootBlicks
 local flatList
 
 function getClientInfo()
@@ -36,6 +36,8 @@ function getTranslations(langCode)
 end
 
 function main()
+  overshootBlicks  = SV:getProject():getTimeAxis():getBlickFromSeconds(overshootDuration)
+  undershootBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(undershootDuration)
   makeFlatList()
   setOvershoot()
   SV:finish()

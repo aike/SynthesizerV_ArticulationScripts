@@ -12,7 +12,7 @@
 
 local preparationTime = 50 / 1000  -- 50msec
 
-local preparationBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(preparationTime)
+local preparationBlicks
 local flatList
 
 function getClientInfo()
@@ -34,7 +34,8 @@ function getTranslations(langCode)
 end
 
 function main()
-  makeFlatList()
+  preparationBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(preparationTime)
+   makeFlatList()
   setOvershoot()
   SV:finish()
 end

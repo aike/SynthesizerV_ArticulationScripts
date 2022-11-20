@@ -12,7 +12,7 @@
 
 local passingTime = 50 / 1000  -- 50msec
 
-local passingBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(passingTime)
+local passingBlicks
 local flatList
 
 function getClientInfo()
@@ -34,6 +34,7 @@ function getTranslations(langCode)
 end
 
 function main()
+  passingBlicks = SV:getProject():getTimeAxis():getBlickFromSeconds(passingTime)
   makeFlatList()
   setOvershoot()
   SV:finish()
