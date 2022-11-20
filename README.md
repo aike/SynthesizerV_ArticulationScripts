@@ -13,7 +13,7 @@ Synthesizer V用のアーティキュレーションスクリプト集です。�
 * フォール　リリース時に語尾が下がります
 
 ## インストール
-右上のCodeボタンからDownload ZIPを選んでダウンロードしてスクリプトフォルダにコピーしてください。  
+右上のCodeボタンからDownload ZIPを選んでダウンロード、展開してスクリプトフォルダにコピーしてください。  
   
 スクリプトフォルダはWindowsの場合、以下の場所になります。  
 C:\Users\（ユーザー名）\Documents\Dreamtonics\Synthesizer V Studio\scripts
