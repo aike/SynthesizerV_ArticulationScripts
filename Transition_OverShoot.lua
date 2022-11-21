@@ -10,7 +10,7 @@
 
 --]]
 
-local overshootDuration = 50 / 1000  -- 50msec
+local overshootDuration = 120 / 1000  -- 120msec
 
 local overshootBlicks
 local flatList

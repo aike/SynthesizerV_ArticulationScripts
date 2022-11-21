@@ -10,7 +10,7 @@
 
 --]]
 
-local passingTime = 50 / 1000  -- 50msec
+local passingTime = 80 / 1000  -- 80msec
 
 local passingBlicks
 local flatList

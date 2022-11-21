@@ -10,8 +10,8 @@
 
 --]]
 
-local overshootDuration  = 50 / 1000  -- 50msec
-local undershootDuration = 30 / 1000  -- 30msec
+local overshootDuration  = 120 / 1000  -- 120msec
+local undershootDuration = 120 / 1000  -- 120msec
 
 local overshootBlicks
 local undershootBlicks

@@ -10,7 +10,7 @@
 
 --]]
 
-local preparationTime = 50 / 1000  -- 50msec
+local preparationTime = 120 / 1000  -- 120msec
 
 local preparationBlicks
 local flatList
