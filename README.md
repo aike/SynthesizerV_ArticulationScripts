@@ -17,6 +17,7 @@ Synthesizer V用のアーティキュレーションスクリプト集です。�
 ## 動画
 https://x.com/aike1000/status/1593999002223005697  
 https://x.com/aike1000/status/1604156215596122114
+https://x.com/aike1000/status/1840261280772567159
 
 ## インストール
 右上のCodeボタンからDownload ZIPを選んでダウンロード、展開してスクリプトフォルダにコピーしてください。  
