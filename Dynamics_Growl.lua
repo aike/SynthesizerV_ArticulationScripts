@@ -74,7 +74,7 @@ function main()
         minValue = 0,
         maxValue = 1.0,
         interval = 0.01,
-        default = 0.5
+        default = 0.7
       },
       {
         name = "cbLength", type = "ComboBox",
