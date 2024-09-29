@@ -50,7 +50,7 @@ end
 ```lua
 function getClientInfo()
   return {
-    category = "Articulation"
+    category = "Articulation",
     name = SV:T("Transition:Overshoot"),
     author = "aike",
     versionNumber = 1,
