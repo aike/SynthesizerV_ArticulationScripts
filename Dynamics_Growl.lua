@@ -6,6 +6,8 @@
   MIT License
   Copyright 2024, aike (@aike1000)
 
+  Special Thanks: @ELPTinySymphony and early vocaloid community
+
   https://github.com/aike/SynthesizerV_ArticulationScripts
 
 --]]
