@@ -64,7 +64,7 @@ end
 ## ライセンス
 Synthesizer V上で本スクリプトを実行して制作した音楽作品等に制限はありません。使用条件もありません、事前事後の連絡・クレジットなども不要です。
   
-本スクリプト自体の改変・再配布については以下のライセンスに従ってください。
+本スクリプト自体の改変・再配布については以下のライセンスに従ってください。  
 Synthesizer V Articulation Scripts are licensed under MIT License.  
 Copyright 2022-2024, aike (@aike1000)  
 
